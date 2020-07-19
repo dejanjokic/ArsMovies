@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/card_margin"
+    app:cardElevation="@dimen/card_elevation">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/movie_item_padding">
+        
+        <ImageView
+            android:id="@+id/imageViewMovieItemPoster"
+            android:layout_width="@dimen/movie_item_poster_width"
+            android:layout_height="@dimen/movie_item_poster_height"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/content_description_movie_poster"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:src="@tools:sample/avatars"/>
+
+        <TextView
+            android:id="@+id/textViewMovieItemTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/movie_item_title_margin"
+            android:maxLines="1"
+            android:textSize="@dimen/movie_item_title_text_size"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/imageViewMovieItemPoster"
+            app:layout_constraintEnd_toStartOf="@id/buttonMovieItemToggleFavorite"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:text="@tools:sample/full_names"/>
+
+        <ImageButton
+            android:id="@+id/buttonMovieItemToggleFavorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:tint="@color/colorAccent"
+            android:contentDescription="@string/content_description_button_movie_toggle_favorite"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:srcCompat="@drawable/ic_favorite"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

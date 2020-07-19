@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ArsMovies</string>
+
+    <string name="action_search_movies">Search</string>
+    <string name="action_share_movie">Share</string>
+
+    <string name="message_favorites_empty">You currently don\'t have any favorite movies.</string>
+    <string name="message_network_error">Network error</string>
+
+    <string name="content_description_movie_poster">Movie poster</string>
+    <string name="content_description_button_movie_toggle_favorite">Toggle favorite</string>
+    <string name="label_genres">Genres</string>
+    <string name="label_actors">Actors</string>
+    <string name="label_plot">Plot</string>
+</resources>

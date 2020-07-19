@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="card_margin">4dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+
+    <dimen name="movie_item_padding">8dp</dimen>
+    <dimen name="movie_item_poster_width">50dp</dimen>
+    <dimen name="movie_item_poster_height">75dp</dimen>
+    <dimen name="movie_item_title_margin">8dp</dimen>
+    <dimen name="movie_item_title_text_size">18sp</dimen>
+    <dimen name="movie_section_header_text_size">18sp</dimen>
+
+    <dimen name="movie_details_horizontal_padding">16dp</dimen>
+    <dimen name="movie_details_portrait_poster_width">150dp</dimen>
+    <dimen name="movie_details_portrait_poster_height">225dp</dimen>
+    <dimen name="movie_details_landscape_poster_width">250dp</dimen>
+    <dimen name="movie_details_title_text_size">20sp</dimen>
+    <dimen name="dimen_movie_details_label_drawable_padding">4dp</dimen>
+</resources>

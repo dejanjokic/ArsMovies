@@ -4,9 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingStart="@dimen/movie_details_horizontal_padding"
-    android:paddingEnd="@dimen/movie_details_horizontal_padding">
+    android:layout_height="match_parent">
 
     <ProgressBar
         android:id="@+id/progressBarMovieDetails"
@@ -20,6 +18,8 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:paddingStart="@dimen/movie_details_horizontal_padding"
+        android:paddingEnd="@dimen/movie_details_horizontal_padding"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

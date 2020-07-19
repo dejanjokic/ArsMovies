@@ -10,7 +10,7 @@ ArsFutura's task for a Junior Android Developer position.
 
 ## Screenshots
 
-![Alt text](/art/screenshot_favorites.png?raw=true "Favorite Movies") ![Alt text](/art/screenshot_search?raw=true "Movie Search") ![Alt text](/art/screenshot_details.png?raw=true "Movie Details")
+![Alt text](/art/screenshot_favorites.png?raw=true "Favorite Movies") ![Alt text](/art/screenshot_search.png?raw=true "Movie Search") ![Alt text](/art/screenshot_details.png?raw=true "Movie Details")
 
 ---
 

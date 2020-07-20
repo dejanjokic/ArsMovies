@@ -22,7 +22,7 @@ class MovieRepository @Inject constructor(
             dao.getAllMovieListItemsFlow().collect {
                 val items = MovieMapper.entityListToDomain(it)
                 emit(Result.Success(items))
-        }
+            }
         } catch (t: Throwable) {
             Timber.e("Error: ${t.localizedMessage}")
             emit(Result.Failure(t))

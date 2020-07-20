@@ -29,7 +29,7 @@ class MovieRepository @Inject constructor(
         }
     }.flowOn(Dispatchers.IO)
 
-    fun getMovieSearchResults(searchQuery: String = "Godfather"): Flow<SimpleResult<List<DomainItem>>> = flow {
+    fun getMovieSearchResults(searchQuery: String): Flow<SimpleResult<List<DomainItem>>> = flow {
         val favoriteIds = favDataSource.getFavoriteIds()
             try {
                 val searchResponse = api.getMovieSearchResults(searchQuery)
